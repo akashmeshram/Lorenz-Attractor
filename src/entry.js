@@ -139,7 +139,7 @@ function updateLorenzCurve() {
 }
 
 function animate() {
-  if (lorenzAttractor.allPoints.length < 1000) {
+  if (lorenzAttractor.allPoints.length < 4000) {
     updateLorenzCurve();
   }
   requestAnimationFrame(animate);
