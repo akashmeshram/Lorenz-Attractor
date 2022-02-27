@@ -2,6 +2,8 @@
 
 A structure which looks like a butterfly in one plane and an owl mask in another.
 
+![Lorenz Attractor](./loren-attractor.webp)
+
 ## About the Lorenz
 
 The Lorenz attractor is an attractor that arises in a simplified system of equations describing the two-dimensional flow of fluid.
@@ -9,21 +11,28 @@ In the early 1960s, Lorenz accidentally discovered the chaotic behavior of this 
 
 ## Install
 
-In the terminal at folder type `npm install` to set things up. To get going run: `npm start`.
+In the terminal at folder type `yarn` to set things up. To get going run: `yarn start`.
 
 ````
 
 ## Running the development server
 
 ```bash
-npm start
+yarn start
 ````
 
 This command will bundle the project code and start a development server at [http://localhost:8080/](http://localhost:8080/). Visit this in your web browser.
 
 ## Building the project for the web
 
-Running `npm run build` in terminal will bundle your project into the folder `./build/`. You can upload this directory to a web server. For more complex results read [this guide](https://webpack.js.org/guides/production/).
+Running `yarn build` in terminal will bundle your project into the folder `./build/`. You can upload this directory to a web server. For more complex results read [this guide](https://webpack.js.org/guides/production/).
+
+````
+## Publish to gh-pages
+
+```bash
+yarn run publish
+````
 
 <!-- ## Boilerplate Info
 
@@ -36,5 +45,5 @@ Three.js starter project boilerplate bundled with Webpack. -->
 
 ## License
 
-Copyright © 2019-21 [Akash Meshram](https://github.com/akashmeshram).<br />
+Copyright © 2017-21 [Akash Meshram](https://github.com/akashmeshram).<br />
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details

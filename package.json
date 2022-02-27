@@ -10,8 +10,9 @@
   ],
   "scripts": {
     "start": "webpack serve",
-    "prebuild": "rimraf ./build && mkdir ./build",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "deploy": "gh-pages -d build",
+    "publish": "run-s build deploy"
   },
   "dependencies": {
     "three": "^0.137.5",
@@ -22,7 +23,9 @@
     "@babel/preset-env": "^7.16.11",
     "babel-loader": "^8.2.3",
     "file-loader": "^6.2.0",
+    "gh-pages": "^3.2.3",
     "html-webpack-plugin": "^5.5.0",
+    "npm-run-all": "^4.1.5",
     "raw-loader": "^4.0.2",
     "rimraf": "^3.0.2",
     "webpack": "^5.67.0",
