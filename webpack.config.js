@@ -26,5 +26,5 @@ module.exports = {
       },
     ],
   },
-  plugins: [new HtmlWebpackPlugin({ title: "Lorenz Curve" })],
+  plugins: [new HtmlWebpackPlugin({ template: "./src/index.html" })],
 };
